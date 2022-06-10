@@ -1,0 +1,9 @@
+{
+    "name": "vscode-golang-template",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+	"features": {
+		"golang": "latest",
+		"github-cli": "latest"
+	},
+	"remoteUser": "vscode"
+}
