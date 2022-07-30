@@ -1,6 +1,9 @@
 {
 	"name": "vscode-golang-template",
-	"image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+	"build":{
+		"dockerfile": "Dockerfile",
+		"cacheFrom": "ghcr.io/nmemoto/try-devcontainer-ci"
+	},
 	"features": {
 		"golang": "latest",
 		"github-cli": "latest"
