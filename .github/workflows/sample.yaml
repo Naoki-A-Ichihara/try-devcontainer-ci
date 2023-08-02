@@ -23,5 +23,6 @@ jobs:
       - name: Build and run dev container task
         uses: devcontainers/ci@v0.3
         with:
-          #imageName: ghcr.io/naoki-a-ichihara/try-devcontainer-ci
+          imageName: ghcr.io/naoki-a-ichihara/try-devcontainer-ci
+          cacheFrom: ghcr.io/naoki-a-ichihara/try-devcontainer-ci
           runCmd: go test
