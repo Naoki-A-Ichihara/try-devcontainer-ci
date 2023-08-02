@@ -2,7 +2,7 @@
 	"name": "vscode-golang-template",
 	"build":{
 		"dockerfile": "Dockerfile",
-		"cacheFrom": "ghcr.io/nmemoto/try-devcontainer-ci"
+		"cacheFrom": "ghcr.io/Naoki-A-Ichihara/try-devcontainer-ci"
 	},
 	"features": {
 		"golang": "latest",
